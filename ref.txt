@@ -1,0 +1,25 @@
+Using mysql-connector
+python -m pip install mysql-connector-python
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="root",
+  database="import_users",
+)
+
+using 
+pip install python-dotenv
+
+
+DATA INFO
+
+*a lot of users were drop because they had conflicts on pk*
+
+Posts is csv:
+Posts in DB:
+users in csv:
+users in DB:437,301
+my users that has posts:34
+all users that has posts:1167
+all post of my users:
